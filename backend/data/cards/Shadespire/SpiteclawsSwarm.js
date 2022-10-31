@@ -1,0 +1,36 @@
+
+export const SpiteclawsSwarm = [
+    { name: "Arm's Length", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Brilliant, Brilliant!", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Feast-Feast", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Honed Survival Skills", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Leading from the Back", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Live to Fight Another Day", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Lives are Cheap", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Numberless Swarm", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Skritch Is The Greatest, Yes-yes", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Krrk Now Leads!", type: "Objective", warband: "Spiteclaw's Swarm" },
+
+    { name: "Aversion to Death", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "Frenzied Stabbing", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "Heightened Caution", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "Momentary Boldness", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "Musk of Fear", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "Nervous Scrabbling", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "Scratching in the Shadows", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "Skaven Courage", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "Sudden Skittering", type: "Gambit", warband: "Spiteclaw's Swarm" },
+    { name: "There Are Always More", type: "Gambit", warband: "Spiteclaw's Swarm" },
+
+    { name: "Black Hunger", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Bodyguard for a Price", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Expendable", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Festering Blades", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Flee!", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Skitter-scurry", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Sneaky Stab-stab", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Swarm of Rats", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Throwing Stars", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Whirling Halberd", type: "Upgrade", warband: "Spiteclaw's Swarm" },
+    { name: "Krrk the Clawchief", type: "Upgrade", warband: "Spiteclaw's Swarm" }
+]

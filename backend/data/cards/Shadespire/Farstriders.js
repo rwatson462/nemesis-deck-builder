@@ -1,0 +1,36 @@
+
+export const Farstriders = [
+    { name: "Behead the Beast", type: "Objective", warband: "Farstriders" },
+    { name: "Brave but Cautious", type: "Objective", warband: "Farstriders" },
+    { name: "Close with the Enemy", type: "Objective", warband: "Farstriders" },
+    { name: "Eternal Supremacy", type: "Objective", warband: "Farstriders" },
+    { name: "Lighning Advance", type: "Objective", warband: "Farstriders" },
+    { name: "Meticulous Annihilation", type: "Objective", warband: "Farstriders" },
+    { name: "Punishing Volleys", type: "Objective", warband: "Farstriders" },
+    { name: "Ranger Strike", type: "Objective", warband: "Farstriders" },
+    { name: "Sigmar's Finest", type: "Objective", warband: "Farstriders" },
+    { name: "Intervention", type: "Objective", warband: "Farstriders" },
+
+    { name: "Fearsome Roar", type: "Gambit", warband: "Farstriders" },
+    { name: "Firm Footing", type: "Gambit", warband: "Farstriders" },
+    { name: "Lightning Blow", type: "Gambit", warband: "Farstriders" },
+    { name: "Lightning Stride", type: "Gambit", warband: "Farstriders" },
+    { name: "Patient Defence", type: "Gambit", warband: "Farstriders" },
+    { name: "Rangers, Advance", type: "Gambit", warband: "Farstriders" },
+    { name: "Rapid Volley", type: "Gambit", warband: "Farstriders" },
+    { name: "Retribution", type: "Gambit", warband: "Farstriders" },
+    { name: "Steady Volley", type: "Gambit", warband: "Farstriders" },
+    { name: "Warning Cry", type: "Gambit", warband: "Farstriders" },
+    { name: "Raptor Strike", type: "Gambit", warband: "Farstriders" },
+
+    { name: "Aetheric Step", type: "Upgrade", warband: "Farstriders" },
+    { name: "Covering Fire", type: "Upgrade", warband: "Farstriders" },
+    { name: "Flashing Handaxe", type: "Upgrade", warband: "Farstriders" },
+    { name: "Furious Blow", type: "Upgrade", warband: "Farstriders" },
+    { name: "Lone Warrior", type: "Upgrade", warband: "Farstriders" },
+    { name: "Overcharged Boltstorm Pistol", type: "Upgrade", warband: "Farstriders" },
+    { name: "Sharp Eyes", type: "Upgrade", warband: "Farstriders" },
+    { name: "Spinning Strike", type: "Upgrade", warband: "Farstriders" },
+    { name: "Swift Stride", type: "Upgrade", warband: "Farstriders" },
+    { name: "Well-timed Lunge", type: "Upgrade", warband: "Farstriders" }
+]

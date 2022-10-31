@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  backend:
+    build: docker/backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./backend:/app"
+    command: ["npm", "run", "dev"]
+    

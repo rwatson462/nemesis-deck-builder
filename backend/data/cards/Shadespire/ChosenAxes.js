@@ -1,0 +1,36 @@
+
+export const ChosenAxes = [
+    { name: "A Claim Retaken", type: "Objective", warband: "Chosen Axes" },
+    { name: "A Grim Promise", type: "Objective", warband: "Chosen Axes" },
+    { name: "Ferocious Charge", type: "Objective", warband: "Chosen Axes" },
+    { name: "For The Ur-gold", type: "Objective", warband: "Chosen Axes" },
+    { name: "Fury of the Lodge", type: "Objective", warband: "Chosen Axes" },
+    { name: "Hoarders", type: "Objective", warband: "Chosen Axes" },
+    { name: "Oaths Still to Fulfil", type: "Objective", warband: "Chosen Axes" },
+    { name: "Scion of Grimnir", type: "Objective", warband: "Chosen Axes" },
+    { name: "Unstoppable Advance", type: "Objective", warband: "Chosen Axes" },
+    { name: "Pride of the Lodge", type: "Objective", warband: "Chosen Axes" },
+
+    { name: "Berserk Fury", type: "Gambit", warband: "Chosen Axes" },
+    { name: "Indomitable", type: "Gambit", warband: "Chosen Axes" },
+    { name: "Living Wall", type: "Gambit", warband: "Chosen Axes" },
+    { name: "Oathsworn", type: "Gambit", warband: "Chosen Axes" },
+    { name: "Piercing Stare", type: "Gambit", warband: "Chosen Axes" },
+    { name: "Slaying Blow", type: "Gambit", warband: "Chosen Axes" },
+    { name: "The Earth Shakes", type: "Gambit", warband: "Chosen Axes" },
+    { name: "Treasure-lust", type: "Gambit", warband: "Chosen Axes" },
+    { name: "Ur-gold Boon", type: "Gambit", warband: "Chosen Axes" },
+    { name: "We Shall Not Be Moved", type: "Gambit", warband: "Chosen Axes" },
+    { name: "Grimnir Commands", type: "Gambit", warband: "Chosen Axes" },
+
+    { name: "Activated Runes", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "Brute Strength", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "Defiant Strike", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "Flurry of Blows", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "Great Swing", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "Grimnir's Blessing", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "Grimnir's Fortitude", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "Grimnir's Speed", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "Returning Axe", type: "Upgrade", warband: "Chosen Axes" },
+    { name: "War Song", type: "Upgrade", warband: "Chosen Axes" }
+]
