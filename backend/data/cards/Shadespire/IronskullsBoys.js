@@ -1,0 +1,36 @@
+
+export const IronskullsBoys = [
+    { name: "'Ard as Iron", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Biggest an' da Best", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Call of the Waaagh!", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Dead Kunnin'", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Dere's More of Us", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Get Da Boss", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Good Scrap", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Punch-Up", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Too Dumb to Die", type: "Objective", warband: "Ironskull's Boys" },
+    { name: "Showin' Off", type: "Objective", warband: "Ironskull's Boys" },
+
+    { name: "'Avin' a Good Time", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Brutal But Kunnin'", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Deafening Bellow", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Gorkamorka's Blessing", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Kunnin' But Brutal", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Last Lunge", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Leadin' By Example", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "More Choppin'", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Pillage", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Scrag 'Em", type: "Gambit", warband: "Ironskull's Boys" },
+    { name: "Impress Da Boss", type: "Gambit", warband: "Ironskull's Boys" },
+
+    { name: "'Ard Head", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "Aspiring Boss", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "Brutal Frenzy", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "Brutal Swing", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "Crush and Cleave", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "Dead 'Ard", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "'Eadbutt", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "Headlong Rush", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "Unkillable", type: "Upgrade", warband: "Ironskull's Boys" },
+    { name: "Waaagh!", type: "Upgrade", warband: "Ironskull's Boys" }
+]

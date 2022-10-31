@@ -1,0 +1,35 @@
+
+export const SteelheartsChampions = [
+    { name: "Awe-Inspiring", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Cleanse", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Consecrated Area", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Eternals", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Immovable", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Lightning Strikes", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Seize Ground", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Sigmar's Bulwark", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Slayer of Tyrants", type: "Objective", warband: "Steelheart's Champions" },
+
+    { name: "Heroic Guard", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Peal of Thunder", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Righteous Zeal", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Sigmarite Wall", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Stormforged Resistance", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Stormforged Tactics", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Tireless Assault", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Undaunted", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Unstoppable Force", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Valiant Attack", type: "Gambit", warband: "Steelheart's Champions" },
+    { name: "Invulnerable", type: "Gambit", warband: "Steelheart's Champions" },
+
+    { name: "Blessed by Sigmar", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Block", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Brave Strike", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Fatal Riposte", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Heroic Might", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Heroic Stride", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Lightning Blade", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Righteous Strike", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Shield Bash", type: "Upgrade", warband: "Steelheart's Champions" },
+    { name: "Steelheart's Second", type: "Upgrade", warband: "Steelheart's Champions" }
+]
