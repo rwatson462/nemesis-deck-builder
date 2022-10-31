@@ -8,6 +8,9 @@ import NemesisDeckNav from "../../components/NemesisDeckNav"
 import ClickableCardList from "../../components/ClickableCardList"
 import { CardTypes } from "../../data/CardTypes"
 import validateNemesisDeck from "../../functions/validateNemesisDeck"
+import { Warbands } from "../../data/Warbands"
+import { NemesisDecks } from "../../data/NemesisDecks"
+import { Cards } from "../../data/cards"
 
 export default function Page({warband, deck, warbands, decks}) {
     const [userDeck, setUserDeck] = useState([])
@@ -93,11 +96,17 @@ export default function Page({warband, deck, warbands, decks}) {
 }
 
 export async function getStaticPaths() {
-    const warbandsResponse = await fetch('http://localhost:3000/api/warbands/all')
-    const warbands = await warbandsResponse.json()
+    const warbands = Warbands.map(warband => ({
+        name: warband.name,
+        faction: warband.faction,
+        url: `/warbands/${createSlug(warband.name)}`
+    }))
 
-    const decksResponse = await fetch('http://localhost:3000/api/nemesis-decks/all')
-    const decks = await decksResponse.json()
+    const decks = NemesisDecks.map(deck => ({
+        name: deck.name,
+        faction: deck.faction,
+        url: `/nemesis-decks/${createSlug(deck.name)}`
+    }))
 
     const paths = []
     warbands.map(warband => decks.map(deck => {
@@ -113,23 +122,15 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({params}) {
-    const [warband, deck] = params.data
+    const [warbandName, deckName] = params.data
 
     const navData = await loadNavData()
 
-    const warbandResponse = await fetch(`http://localhost:3000/api/warbands/${warband}`)
-    const warbandData = await warbandResponse.json()
+    const warbandData = Warbands.find(warband => createSlug(warband.name) === warbandName)
+    const deckData = NemesisDecks.find(deck => createSlug(deck.name) === deckName)
 
-    const deckResponse = await fetch(`http://localhost:3000/api/nemesis-decks/${deck}`)
-    const deckData = await deckResponse.json()
-
-    const warbandCardResponse = await fetch(`http://backend:3000/api/cards/${createSlug(warbandData.name)}`)
-    const warbandCards = await warbandCardResponse.json()
-    warbandData.cards = warbandCards.cards
-
-    const nemesisCardResponse = await fetch(`http://backend:3000/api/cards/${createSlug(deckData.name)}`)
-    const nemesisCards = await nemesisCardResponse.json()
-    deckData.cards = nemesisCards.cards
+    warbandData.cards = Cards.filter(card => createSlug(card.warband) === warbandName)
+    deckData.cards = Cards.filter(card => createSlug(card.warband) === deckName)
 
     return {
         props: {

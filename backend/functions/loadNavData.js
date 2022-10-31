@@ -1,13 +1,22 @@
+import { Warbands } from "../data/Warbands"
+import { NemesisDecks } from "../data/NemesisDecks"
+import createSlug from "./createSlug"
 
 export async function loadNavData() {
-    const warbandResponse = await fetch('http://backend:3000/api/warbands/all')
-    const warbands = await warbandResponse.json()
+    const warbandData = Warbands.map(warband => ({
+        name: warband.name,
+        faction: warband.faction,
+        url: `/warbands/${createSlug(warband.name)}`
+    }))
 
-    const deckResponse = await fetch('http://backend:3000/api/nemesis-decks/all')
-    const decks = await deckResponse.json()
+    const deckData = NemesisDecks.map(deck => ({
+        name: deck.name,
+        faction: deck.faction,
+        url: `/nemesis-decks/${createSlug(deck.name)}`
+    }))
 
     return {
-        warbands,
-        decks
+        warbands: warbandData,
+        decks: deckData,
     }
 }

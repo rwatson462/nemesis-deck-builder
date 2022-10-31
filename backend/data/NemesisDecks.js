@@ -1,7 +1,7 @@
 
 export const NemesisDecks = [
-    { name: "Illusory Might", },
-    { name: "Deadly Depths", },
-    { name: "Daring Delvers", },
-    { name: "Tooth and Claw", },
+    { name: "Illusory Might", faction: "Universal" },
+    { name: "Deadly Depths", faction: "Universal" },
+    { name: "Daring Delvers", faction: "Universal" },
+    { name: "Tooth and Claw", faction: "Universal" },
 ]

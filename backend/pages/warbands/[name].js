@@ -6,6 +6,8 @@ import NemesisDeckNav from "../../components/NemesisDeckNav"
 import WarbandNav from "../../components/WarbandNav"
 import createSlug from "../../functions/createSlug"
 import { loadNavData } from "../../functions/loadNavData"
+import { Warbands } from "../../data/Warbands"
+import { Cards } from "../../data/cards"
 
 export default function WarbandPage({warband = {}, warbands = [], decks = []}) {
     const title = `Warband: ${warband.name}`
@@ -54,11 +56,7 @@ export default function WarbandPage({warband = {}, warbands = [], decks = []}) {
  * are for [name], then caches the results
  */
 export async function getStaticPaths() {
-    const res = await fetch('http://backend:3000/api/warbands/all')
-
-    const warbands = await res.json()
-
-    const paths = warbands.map(warband => (
+    const paths = Warbands.map(warband => (
         {params: {name: createSlug(warband.name)}}
     ))
 
@@ -73,13 +71,10 @@ export async function getStaticPaths() {
  * It is run for each page discovered from getStaticPaths to cache all data
  */
 export async function getStaticProps({params}) {
-    const response = await fetch(`http://backend:3000/api/warbands/${params.name}`)
-    const warband = await response.json()
+    const warband = Warbands.find(warband => createSlug(warband.name) === params.name)
+    const cards = Cards.filter(card => createSlug(card.warband) === params.name)
 
-    const cardResponse = await fetch(`http://backend:3000/api/cards/${params.name}`)
-    const cards = await cardResponse.json()
-
-    warband.cards = cards.cards
+    warband.cards = cards
 
     const navData = await loadNavData()
 
