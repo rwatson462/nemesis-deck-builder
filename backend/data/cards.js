@@ -1,3 +1,4 @@
+import { RippasSnarlfangs } from "./cards/Beastgrave/RippasSnarlfangs";
 import { SonsOfVelmorn } from "./cards/Gnarlwood/SonsOfVelmorn";
 import { DaringDelvers } from "./cards/Rivals/DaringDelvers";
 import { DeadlyDepths } from "./cards/Rivals/DeadlyDepths";
@@ -21,6 +22,8 @@ export const Cards = [
     ...GarreksReavers,
     ...MagoresFiends,
     ...SteelheartsChampions,
+
+    ...RippasSnarlfangs,
 
     ...SonsOfVelmorn,
 
