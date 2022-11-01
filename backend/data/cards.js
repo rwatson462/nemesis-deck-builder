@@ -1,5 +1,8 @@
+import { HrothgornsMantrappers } from "./cards/Beastgrave/HrothgornsMantrappers";
 import { RippasSnarlfangs } from "./cards/Beastgrave/RippasSnarlfangs";
+import { GnarlspiritPack } from "./cards/Gnarlwood/GnarlspiritPack";
 import { SonsOfVelmorn } from "./cards/Gnarlwood/SonsOfVelmorn";
+import { GorechosenOfDromm } from "./cards/Nethermaze/GorechosenOfDromm";
 import { DaringDelvers } from "./cards/Rivals/DaringDelvers";
 import { DeadlyDepths } from "./cards/Rivals/DeadlyDepths";
 import { IllusoryMight } from "./cards/Rivals/IllusoryMight";
@@ -24,8 +27,12 @@ export const Cards = [
     ...SteelheartsChampions,
 
     ...RippasSnarlfangs,
+    ...HrothgornsMantrappers,
+
+    ...GorechosenOfDromm,
 
     ...SonsOfVelmorn,
+    ...GnarlspiritPack,
 
     ...DeadlyDepths,
     ...IllusoryMight,
