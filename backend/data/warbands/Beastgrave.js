@@ -1,43 +1,43 @@
 
 export const Beastgrave = [
-    {
-        name: "Skaeth's Wild Hunt",
-        season: "3 (Beastgrave)",
-        faction: 'Order'
-    },
-    {
-        name: "Grashrak's Despoilers",
-        season: "3 (Beastgrave)",
-        faction: 'Chaos'
-    },
+    // {
+    //     name: "Skaeth's Wild Hunt",
+    //     season: "beastgrave",
+    //     faction: 'Order'
+    // },
+    // {
+    //     name: "Grashrak's Despoilers",
+    //     season: "beastgrave",
+    //     faction: 'Chaos'
+    // },
     {
         name: "Rippa's Snarlfangs",
-        season: "3 (Beastgrave)",
+        season: "beastgrave",
         faction: 'Destruction'
     },
-    {
-        name: "Grymwatch",
-        season: "3 (Beastgrave)",
-        faction: 'Death'
-    },
+    // {
+    //     name: "Grymwatch",
+    //     season: "beastgrave",
+    //     faction: 'Death'
+    // },
     {
         name: "Hrothgorn's Mantrappers",
-        season: "3 (Beastgrave)",
+        season: "beastgrave",
         faction: 'Destruction'
     },
-    {
-        name: "Morgwaeth's Blade-coven",
-        season: "3 (Beastgrave)",
-        faction: 'Order'
-    },
-    {
-        name: "Morgok's Krushas",
-        season: "3 (Beastgrave)",
-        faction: 'Destruction'
-    },
-    {
-        name: 'Wurmspat',
-        season: "3 (Beastgrave)",
-        faction: 'Chaos'
-    }
+    // {
+    //     name: "Morgwaeth's Blade-coven",
+    //     season: "beastgrave",
+    //     faction: 'Order'
+    // },
+    // {
+    //     name: "Morgok's Krushas",
+    //     season: "beastgrave",
+    //     faction: 'Destruction'
+    // },
+    // {
+    //     name: 'Wurmspat',
+    //     season: "beastgrave",
+    //     faction: 'Chaos'
+    // }
 ]

@@ -17,7 +17,7 @@ export const DeadlyDepths = [
     { name: "Amphibious Ambush", type: "Gambit", warband: "Deadly Depths" },
     { name: "Blazing Light", type: "Gambit", warband: "Deadly Depths" },
     { name: "Knives in the Dark", type: "Gambit", warband: "Deadly Depths" },
-    { name: "Murderous Dark", type: "Gambit", warband: "Deadly Depths" },
+    { name: "Murderous Tides", type: "Gambit", warband: "Deadly Depths" },
     { name: "Seeking the Deep Truths", type: "Gambit", warband: "Deadly Depths" },
     { name: "Shadowed Refuge", type: "Gambit", warband: "Deadly Depths" },
     { name: "The Walls are Closing In", type: "Gambit", warband: "Deadly Depths" },

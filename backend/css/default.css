@@ -154,10 +154,24 @@ ul.list-group, ul.list-group li {
 }
 
 .deck-container li {
-    display: flex;
-    justify-content: space-between;
     border-radius: 0.25rem;
     padding: 0 0.25rem !important;
+    user-select: none;
+}
+
+.deck-container li span.card-text {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.deck-container li .card-image-container {
+    border: 2px solid;
+    display: flex;
+}
+
+.deck-container li img {
+    width: 100%;
 }
 
 .deck-container .with-links li {

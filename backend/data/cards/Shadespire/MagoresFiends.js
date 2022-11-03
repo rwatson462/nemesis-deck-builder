@@ -1,14 +1,14 @@
 
 export const MagoresFiends = [
-    { name: "All the Better to Slay Them", type: "Objective", warband: "Magore's Fiends" },
-    { name: "Bane of Champions", type: "Objective", warband: "Magore's Fiends" },
+    { name: "All the Better to Slay Them", type: "Objective", warband: "Magore's Fiends", keywords: ["Surge"] },
+    { name: "Bane of Champions", type: "Objective", warband: "Magore's Fiends", keywords: ["Surge"] },
     { name: "Bloody Annihilation", type: "Objective", warband: "Magore's Fiends" },
-    { name: "Khorne Sees Us", type: "Objective", warband: "Magore's Fiends" },
+    { name: "Khorne Sees Us", type: "Objective", warband: "Magore's Fiends", keywords: ["Surge"] },
     { name: "Kill! Kill Again!", type: "Objective", warband: "Magore's Fiends" },
-    { name: "No Escape", type: "Objective", warband: "Magore's Fiends" },
+    { name: "No Escape", type: "Objective", warband: "Magore's Fiends", keywords: ["Surge"] },
     { name: "Rivers of Blood", type: "Objective", warband: "Magore's Fiends" },
     { name: "Save the Best", type: "Objective", warband: "Magore's Fiends" },
-    { name: "Show of Strength", type: "Objective", warband: "Magore's Fiends" },
+    { name: "Show of Strength", type: "Objective", warband: "Magore's Fiends", keywords: ["Surge"] },
     { name: "Khorne's Chosen", type: "Objective", warband: "Magore's Fiends" },
 
     { name: "Blood Frenzy", type: "Gambit", warband: "Magore's Fiends" },

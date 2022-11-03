@@ -31,6 +31,7 @@ export default function WarbandPage({deck = {}, warbands = [], decks = []}) {
                             title={cardType}
                             cards={deck.cards.filter(card => card.type === cardType).sort((a,b) => a.name.localeCompare(b.name))}
                             key={key}
+                            warband={deck}
                         />
                     ))}
                 </HorizontalDecklist>
