@@ -2,12 +2,12 @@
 export const Gnarlwood = [
     {
         name: "Gnarlspirit Pack",
-        season: "6 (Gnarlwood)",
+        season: "gnarlwood",
         faction: 'Chaos'
     },
     {
         name: "Sons of Velmorn",
-        season: "6 (Gnarlwood)",
+        season: "gnarlwood",
         faction: 'Death'
     }
 ]

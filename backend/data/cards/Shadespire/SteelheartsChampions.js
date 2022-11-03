@@ -1,11 +1,11 @@
 
 export const SteelheartsChampions = [
-    { name: "Awe-Inspiring", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Awe-Inspiring", type: "Objective", warband: "Steelheart's Champions", keywords: ["Surge"] },
     { name: "Cleanse", type: "Objective", warband: "Steelheart's Champions" },
     { name: "Consecrated Area", type: "Objective", warband: "Steelheart's Champions" },
     { name: "Eternals", type: "Objective", warband: "Steelheart's Champions" },
     { name: "Immovable", type: "Objective", warband: "Steelheart's Champions" },
-    { name: "Lightning Strikes", type: "Objective", warband: "Steelheart's Champions" },
+    { name: "Lightning Strikes", type: "Objective", warband: "Steelheart's Champions", keywords: ["Surge"] },
     { name: "Seize Ground", type: "Objective", warband: "Steelheart's Champions" },
     { name: "Sigmar's Bulwark", type: "Objective", warband: "Steelheart's Champions" },
     { name: "Slayer of Tyrants", type: "Objective", warband: "Steelheart's Champions" },

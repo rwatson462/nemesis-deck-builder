@@ -2,12 +2,12 @@
 export const ChosenAxes = [
     { name: "A Claim Retaken", type: "Objective", warband: "Chosen Axes" },
     { name: "A Grim Promise", type: "Objective", warband: "Chosen Axes" },
-    { name: "Ferocious Charge", type: "Objective", warband: "Chosen Axes" },
+    { name: "Ferocious Charge", type: "Objective", warband: "Chosen Axes", keywords: ["Surge"] },
     { name: "For The Ur-gold", type: "Objective", warband: "Chosen Axes" },
     { name: "Fury of the Lodge", type: "Objective", warband: "Chosen Axes" },
     { name: "Hoarders", type: "Objective", warband: "Chosen Axes" },
     { name: "Oaths Still to Fulfil", type: "Objective", warband: "Chosen Axes" },
-    { name: "Scion of Grimnir", type: "Objective", warband: "Chosen Axes" },
+    { name: "Scion of Grimnir", type: "Objective", warband: "Chosen Axes", keywords: ["Surge"] },
     { name: "Unstoppable Advance", type: "Objective", warband: "Chosen Axes" },
     { name: "Pride of the Lodge", type: "Objective", warband: "Chosen Axes" },
 

@@ -10,12 +10,12 @@ import { StarterSet } from "./warbands/StarterSet"
 
 export const Warbands = [
     ...Shadespire,
-    ...Nightvault,
+    // ...Nightvault,
     ...Beastgrave,
-    ...Dreadfane,
-    ...Direchasm,
-    ...StarterSet,
-    ...Harrowdeep,
+    // ...Dreadfane,
+    // ...Direchasm,
+    // ...StarterSet,
+    // ...Harrowdeep,
     ...Nethermaze,
     ...Gnarlwood
 ]

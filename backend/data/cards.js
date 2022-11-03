@@ -3,6 +3,9 @@ import { RippasSnarlfangs } from "./cards/Beastgrave/RippasSnarlfangs";
 import { GnarlspiritPack } from "./cards/Gnarlwood/GnarlspiritPack";
 import { SonsOfVelmorn } from "./cards/Gnarlwood/SonsOfVelmorn";
 import { GorechosenOfDromm } from "./cards/Nethermaze/GorechosenOfDromm";
+import { HexbanesHunters } from "./cards/Nethermaze/HexbanesHunters";
+import { Shadeborn } from "./cards/Nethermaze/Shadeborn";
+import { SkittershanksClawpack } from "./cards/Nethermaze/SkittershanksClawpack";
 import { DaringDelvers } from "./cards/Rivals/DaringDelvers";
 import { DeadlyDepths } from "./cards/Rivals/DeadlyDepths";
 import { IllusoryMight } from "./cards/Rivals/IllusoryMight";
@@ -10,7 +13,7 @@ import { ToothAndClaw } from "./cards/Rivals/ToothAndClaw";
 import { ChosenAxes } from "./cards/Shadespire/ChosenAxes";
 import { Farstriders } from "./cards/Shadespire/Farstriders";
 import { GarreksReavers } from "./cards/Shadespire/GarreksReavers";
-import { IronskullsBoys } from "./cards/Shadespire/IronskullsBoys";
+import { IronskullsBoyz } from "./cards/Shadespire/IronskullsBoyz";
 import { MagoresFiends } from "./cards/Shadespire/MagoresFiends";
 import { SepulchralGuard } from "./cards/Shadespire/SepulchralGuard";
 import { SpiteclawsSwarm } from "./cards/Shadespire/SpiteclawsSwarm";
@@ -21,7 +24,7 @@ export const Cards = [
     ...ChosenAxes,
     ...SpiteclawsSwarm,
     ...SepulchralGuard,
-    ...IronskullsBoys,
+    ...IronskullsBoyz,
     ...GarreksReavers,
     ...MagoresFiends,
     ...SteelheartsChampions,
@@ -29,6 +32,9 @@ export const Cards = [
     ...RippasSnarlfangs,
     ...HrothgornsMantrappers,
 
+    ...SkittershanksClawpack,
+    ...Shadeborn,
+    ...HexbanesHunters,
     ...GorechosenOfDromm,
 
     ...SonsOfVelmorn,

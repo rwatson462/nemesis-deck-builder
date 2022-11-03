@@ -2,12 +2,12 @@
 export const StarterSet = [
     {
         name: "Storm of Celestus",
-        season: "4 (Direchasm)",
+        season: "starter set",
         faction: 'Order'
     },
     {
         name: "Drepur's Wraithcreepers",
-        season: "4 (Direchasm)",
+        season: "starter set",
         faction: 'Death'
     }
 ]

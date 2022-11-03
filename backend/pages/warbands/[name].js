@@ -38,6 +38,7 @@ export default function WarbandPage({warband = {}, warbands = [], decks = []}) {
                         <CardList
                             title={cardType}
                             cards={warband.cards.filter(card => card.type === cardType).sort((a,b) => a.name.localeCompare(b.name))}
+                            warband={warband}
                             key={key}
                         />
                     ))}

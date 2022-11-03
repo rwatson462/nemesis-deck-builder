@@ -2,22 +2,22 @@
 export const Nethermaze = [
     {
         name: "Skittershank's Clawpack",
-        season: "5 (Harrowdeep and Nethermaze)",
+        season: "nethermaze",
         faction: 'Chaos'
     },
     {
         name: "Shadeborn",
-        season: "5 (Harrowdeep and Nethermaze)",
+        season: "nethermaze",
         faction: 'Order'
     },
     {
         name: "Hexbane's Hunters",
-        season: "5 (Harrowdeep and Nethermaze)",
+        season: "nethermaze",
         faction: 'Order'
     },
     {
         name: "Gorechosen of Dromm",
-        season: "5 (Harrowdeep and Nethermaze)",
+        season: "nethermaze",
         faction: 'Chaos'
     }
 ]

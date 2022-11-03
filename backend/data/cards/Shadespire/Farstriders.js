@@ -7,9 +7,9 @@ export const Farstriders = [
     { name: "Lighning Advance", type: "Objective", warband: "Farstriders" },
     { name: "Meticulous Annihilation", type: "Objective", warband: "Farstriders" },
     { name: "Punishing Volleys", type: "Objective", warband: "Farstriders" },
-    { name: "Ranger Strike", type: "Objective", warband: "Farstriders" },
+    { name: "Ranger Strike", type: "Objective", warband: "Farstriders", keywords: ["Surge"] },
     { name: "Sigmar's Finest", type: "Objective", warband: "Farstriders" },
-    { name: "Intervention", type: "Objective", warband: "Farstriders" },
+    { name: "Intervention", type: "Objective", warband: "Farstriders", keywords: ["Surge"] },
 
     { name: "Fearsome Roar", type: "Gambit", warband: "Farstriders" },
     { name: "Firm Footing", type: "Gambit", warband: "Farstriders" },

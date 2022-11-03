@@ -2,6 +2,7 @@ import Head from "next/head"
 import Footer from "../components/Footer"
 import NemesisDeckNav from "../components/NemesisDeckNav"
 import WarbandNav from "../components/WarbandNav"
+import ExternalLink from "../components/ExternalLink"
 import { loadNavData } from "../functions/loadNavData"
 
 export default function NewsPage({title, warbands = [], decks = []}) {
@@ -18,6 +19,21 @@ export default function NewsPage({title, warbands = [], decks = []}) {
             </p>
 
             <article>
+                <section className="page-section">
+                    <h4 className="underline">3rd November 2022</h4>
+                    <p>
+                        Big news!  All card images are added!  Shamelessly stolen from <ExternalLink href="https://underworldsdb.com">UnderworldsDb</ExternalLink>.
+                        The first time any card is viewed, it's fetched then stored on this site.  The images are then optimised so future requests for them are lightning fast.
+                    </p>
+                    <p>Added deck lists for:</p>
+                    <ul>
+                        <li>Hexbane's Hunters</li>
+                        <li>Skittershank's Clawpack</li>
+                        <li>The Shadeborn</li>
+                    </ul>
+                    <p>As a tidy-up exercise, I've hidden all warbands for which I haven't added their cards to avoid the disappointment of trying to use them when building a deck.</p>
+                </section>
+
                 <section className="page-section">
                     <h4 className="underline">1st November 2022</h4>
                     <p>Added deck lists for:</p>
@@ -36,7 +52,7 @@ export default function NewsPage({title, warbands = [], decks = []}) {
                         <li>Garrek's Reavers</li>
                         <li>Sepulchral Guard</li>
                         <li>Chosen Axes</li>
-                        <li>Ironskull's Boys</li>
+                        <li>Ironskull's Boyz</li>
                         <li>Spiteclaw's Swarm</li>
                         <li>Magore's Fiends</li>
                         <li>Farstriders</li>

@@ -1,13 +1,13 @@
 
 export const GarreksReavers = [
     { name: "A Worthy Skull", type: "Objective", warband: "Garrek's Reavers" },
-    { name: "Blood for the Blood God!", type: "Objective", warband: "Garrek's Reavers" },
-    { name: "Coward!", type: "Objective", warband: "Garrek's Reavers" },
-    { name: "Draw the Gaze of Khorne", type: "Objective", warband: "Garrek's Reavers" },
+    { name: "Blood for the Blood God!", type: "Objective", warband: "Garrek's Reavers", keywords: ["Surge"] },
+    { name: "Coward!", type: "Objective", warband: "Garrek's Reavers", keywords: ["Surge"] },
+    { name: "Draw the Gaze of Khorne", type: "Objective", warband: "Garrek's Reavers", keywords: ["Surge"] },
     { name: "It Begins", type: "Objective", warband: "Garrek's Reavers" },
     { name: "Khorns Cares Not", type: "Objective", warband: "Garrek's Reavers" },
     { name: "Khorne's Champion", type: "Objective", warband: "Garrek's Reavers" },
-    { name: "Let the Blood Flow", type: "Objective", warband: "Garrek's Reavers" },
+    { name: "Let the Blood Flow", type: "Objective", warband: "Garrek's Reavers", keywords: ["Surge"] },
     { name: "There is only Slaughter", type: "Objective", warband: "Garrek's Reavers" },
     { name: "The Stage is Set", type: "Objective", warband: "Garrek's Reavers" },
 

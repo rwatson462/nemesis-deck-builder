@@ -1,6 +1,6 @@
 
 export const SpiteclawsSwarm = [
-    { name: "Arm's Length", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Arm's Length", type: "Objective", warband: "Spiteclaw's Swarm", keywords: ["Surge"] },
     { name: "Brilliant, Brilliant!", type: "Objective", warband: "Spiteclaw's Swarm" },
     { name: "Feast-Feast", type: "Objective", warband: "Spiteclaw's Swarm" },
     { name: "Honed Survival Skills", type: "Objective", warband: "Spiteclaw's Swarm" },
@@ -8,7 +8,7 @@ export const SpiteclawsSwarm = [
     { name: "Live to Fight Another Day", type: "Objective", warband: "Spiteclaw's Swarm" },
     { name: "Lives are Cheap", type: "Objective", warband: "Spiteclaw's Swarm" },
     { name: "Numberless Swarm", type: "Objective", warband: "Spiteclaw's Swarm" },
-    { name: "Skritch Is The Greatest, Yes-yes", type: "Objective", warband: "Spiteclaw's Swarm" },
+    { name: "Skritch Is The Greatest, Yes-yes", type: "Objective", warband: "Spiteclaw's Swarm", keywords: ["Surge"] },
     { name: "Krrk Now Leads!", type: "Objective", warband: "Spiteclaw's Swarm" },
 
     { name: "Aversion to Death", type: "Gambit", warband: "Spiteclaw's Swarm" },

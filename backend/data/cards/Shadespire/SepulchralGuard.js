@@ -6,7 +6,7 @@ export const SepulchralGuard = [
     { name: "March of the Dead", type: "Objective", warband: "Sepulchral Guard" },
     { name: "More Able Bodies", type: "Objective", warband: "Sepulchral Guard" },
     { name: "Peerless General", type: "Objective", warband: "Sepulchral Guard" },
-    { name: "Skills Unforgotten", type: "Objective", warband: "Sepulchral Guard" },
+    { name: "Skills Unforgotten", type: "Objective", warband: "Sepulchral Guard", keywords: ["Surge"] },
     { name: "The Invigorated Dead", type: "Objective", warband: "Sepulchral Guard" },
     { name: "Undead Swarm", type: "Objective", warband: "Sepulchral Guard" },
     { name: "Fervent Petition", type: "Objective", warband: "Sepulchral Guard" },
