@@ -168,6 +168,8 @@ ul.list-group, ul.list-group li {
 .deck-container li .card-image-container {
     border: 2px solid;
     display: flex;
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 .deck-container li img {

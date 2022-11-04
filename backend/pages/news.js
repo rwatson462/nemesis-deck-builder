@@ -20,6 +20,22 @@ export default function NewsPage({title, warbands = [], decks = []}) {
 
             <article>
                 <section className="page-section">
+                    <h4 className="underline">4th  November 2022</h4>
+                    <p>
+                        Finally have all the cards for Harrowdeep and later warbands added in:</p>
+                    <ul>
+                        <li>Xandire's Truthseekers</li>
+                        <li>Da Kunnin' Krew</li>
+                        <li>Blackpowder's Buckaneers</li>
+                        <li>Exiled Dead</li>
+                    </ul>
+                    <p>
+                        Also fixed a spelling error with Da Kunnin' Krew (I forgot that Orruks use K instead of C),
+                        tidied up the card images by adding a little border to them,
+                        and added the site footer to the deck builder page.</p>
+                </section>
+
+                <section className="page-section">
                     <h4 className="underline">3rd November 2022</h4>
                     <p>
                         Big news!  All card images are added!  Shamelessly stolen from <ExternalLink href="https://underworldsdb.com">UnderworldsDb</ExternalLink>.

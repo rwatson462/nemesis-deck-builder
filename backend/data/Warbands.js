@@ -15,7 +15,7 @@ export const Warbands = [
     // ...Dreadfane,
     // ...Direchasm,
     // ...StarterSet,
-    // ...Harrowdeep,
+    ...Harrowdeep,
     ...Nethermaze,
     ...Gnarlwood
 ]

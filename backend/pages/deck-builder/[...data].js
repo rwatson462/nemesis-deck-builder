@@ -11,6 +11,7 @@ import validateNemesisDeck from "../../functions/validateNemesisDeck"
 import { Warbands } from "../../data/Warbands"
 import { NemesisDecks } from "../../data/NemesisDecks"
 import { Cards } from "../../data/cards"
+import Footer from "../../components/Footer"
 
 export default function Page({warband, deck, warbands, decks}) {
     const [userDeck, setUserDeck] = useState([])
@@ -91,6 +92,8 @@ export default function Page({warband, deck, warbands, decks}) {
 
             <WarbandNav warbands={warbands} />
             <NemesisDeckNav decks={decks} />
+
+            <Footer />
         </>
     )
 }

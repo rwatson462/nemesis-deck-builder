@@ -6,7 +6,7 @@ export const Harrowdeep = [
         faction: 'Order'
     },
     {
-        name: "Da Kunnin' Crew",
+        name: "Da Kunnin' Krew",
         season: "harrowdeep",
         faction: 'Destruction'
     },
