@@ -2,6 +2,10 @@ import { HrothgornsMantrappers } from "./cards/Beastgrave/HrothgornsMantrappers"
 import { RippasSnarlfangs } from "./cards/Beastgrave/RippasSnarlfangs";
 import { GnarlspiritPack } from "./cards/Gnarlwood/GnarlspiritPack";
 import { SonsOfVelmorn } from "./cards/Gnarlwood/SonsOfVelmorn";
+import { BlackpowdersBuckaneers } from "./cards/Harrowdeep/BlackpowdersBuckaneers";
+import { DaKunninKrew } from "./cards/Harrowdeep/DaKunninKrew";
+import { ExiledDead } from "./cards/Harrowdeep/ExiledDead";
+import { XandiresTruthseekers } from "./cards/Harrowdeep/XandiresTruthseekers";
 import { GorechosenOfDromm } from "./cards/Nethermaze/GorechosenOfDromm";
 import { HexbanesHunters } from "./cards/Nethermaze/HexbanesHunters";
 import { Shadeborn } from "./cards/Nethermaze/Shadeborn";
@@ -31,6 +35,11 @@ export const Cards = [
 
     ...RippasSnarlfangs,
     ...HrothgornsMantrappers,
+
+    ...XandiresTruthseekers,
+    ...DaKunninKrew,
+    ...BlackpowdersBuckaneers,
+    ...ExiledDead,
 
     ...SkittershanksClawpack,
     ...Shadeborn,
