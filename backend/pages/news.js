@@ -20,6 +20,20 @@ export default function NewsPage({title, warbands = [], decks = []}) {
 
             <article>
                 <section className="page-section">
+                    <h4 className="underline">11th December 2022</h4>
+                    <p>
+                        In honour of a new warband and Nemesis deck being released soon,
+                        I've added in the new cards:</p>
+                    <ul>
+                        <li>Grinkrak's Looncourt</li>
+                        <li>Fearsome Fortress</li>
+                    </ul>
+                    <p>
+                        In the works is a proper mobile view, and some other enhancements to the look and feel so watch this space!
+                    </p>
+                </section>
+
+                <section className="page-section">
                     <h4 className="underline">4th  November 2022</h4>
                     <p>
                         Finally have all the cards for Harrowdeep and later warbands added in:</p>
@@ -32,7 +46,8 @@ export default function NewsPage({title, warbands = [], decks = []}) {
                     <p>
                         Also fixed a spelling error with Da Kunnin' Krew (I forgot that Orruks use K instead of C),
                         tidied up the card images by adding a little border to them,
-                        and added the site footer to the deck builder page.</p>
+                        and added the site footer to the deck builder page.
+                    </p>
                 </section>
 
                 <section className="page-section">
