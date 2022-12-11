@@ -2,42 +2,42 @@
 export const Direchasm = [
     {
         name: "Hedkrakka's Madmob",
-        season: "direchasm",
+        season: "Direchasm",
         faction: 'Destruction'
     },
     {
         name: "Myari's Purifiers",
-        season: "direchasm",
+        season: "Direchasm",
         faction: 'Order'
     },
     {
         name: "Dread Pageant",
-        season: "direchasm",
+        season: "Direchasm",
         faction: 'Chaos'
     },
     {
         name: "Khagra's Ravagers",
-        season: "direchasm",
+        season: "Direchasm",
         faction: 'Chaos'
     },
     {
         name: "Starblood Stalkers",
-        season: "direchasm",
+        season: "Direchasm",
         faction: 'Order'
     },
     {
         name: "Crimson Court",
-        season: "direchasm",
+        season: "Direchasm",
         faction: 'Death'
     },
     {
         name: "Kainan's Reapers",
-        season: "direchasm",
+        season: "Direchasm",
         faction: 'Death'
     },
     {
         name: "Elathain's Soulraid",
-        season: "direchasm",
+        season: "Direchasm",
         faction: 'Order'
     }
 ]

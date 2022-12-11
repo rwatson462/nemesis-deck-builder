@@ -2,22 +2,22 @@
 export const Harrowdeep = [
     {
         name: "Xandire's Truthseekers",
-        season: "harrowdeep",
+        season: "Harrowdeep",
         faction: 'Order'
     },
     {
         name: "Da Kunnin' Krew",
-        season: "harrowdeep",
+        season: "Harrowdeep",
         faction: 'Destruction'
     },
     {
         name: "Blackpowder's Buckaneers",
-        season: "harrowdeep",
+        season: "Harrowdeep",
         faction: 'Destruction'
     },
     {
         name: "Exiled Dead",
-        season: "harrowdeep",
+        season: "Harrowdeep",
         faction: 'Death'
     }
 ]

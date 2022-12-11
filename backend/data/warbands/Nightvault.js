@@ -2,49 +2,49 @@
 export const Nightvault = [
     {
         name: "Stormsire's Cursebreakers",
-        season: "nightvault",
+        season: "Nightvault",
         faction: 'Order',
         hasRivalsDeck: "No"
     },
     {
         name: "Thorns of the Briar Queen",
-        season: "nightvault",
+        season: "Nightvault",
         faction: 'Death',
         hasRivalsDeck: "No"
     },
     {
         name: "Eyes of the Nine",
-        season: "nightvault",
+        season: "Nightvault",
         faction: 'Chaos',
         hasRivalsDeck: "No"
     },
     {
         name: "Ylthari's Guardians",
-        season: "nightvault",
+        season: "Nightvault",
         faction: 'Order',
         hasRivalsDeck: "No"
     },
     {
         name: "Thundrik's Profiteers",
-        season: "nightvault",
+        season: "Nightvault",
         faction: 'Order',
         hasRivalsDeck: "No"
     },
     {
         name: "Mollog's Mob",
-        season: "nightvault",
+        season: "Nightvault",
         faction: 'Destruction',
         hasRivalsDeck: "No"
     },
     {
         name: 'Godsworn Hunt',
-        season: "nightvault",
+        season: "Nightvault",
         faction: 'Chaos',
         hasRivalsDeck: "No"
     },
     {
         name: "Zarbag's Gitz",
-        season: "nightvault",
+        season: "Nightvault",
         faction: 'Destruction',
         hasRivalsDeck: "No"
     }

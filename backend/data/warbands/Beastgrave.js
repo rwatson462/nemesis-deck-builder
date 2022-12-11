@@ -2,42 +2,42 @@
 export const Beastgrave = [
     // {
     //     name: "Skaeth's Wild Hunt",
-    //     season: "beastgrave",
+    //     season: "Beastgrave",
     //     faction: 'Order'
     // },
     // {
     //     name: "Grashrak's Despoilers",
-    //     season: "beastgrave",
+    //     season: "Beastgrave",
     //     faction: 'Chaos'
     // },
     {
         name: "Rippa's Snarlfangs",
-        season: "beastgrave",
+        season: "Beastgrave",
         faction: 'Destruction'
     },
     // {
     //     name: "Grymwatch",
-    //     season: "beastgrave",
+    //     season: "Beastgrave",
     //     faction: 'Death'
     // },
     {
         name: "Hrothgorn's Mantrappers",
-        season: "beastgrave",
+        season: "Beastgrave",
         faction: 'Destruction'
     },
     // {
     //     name: "Morgwaeth's Blade-coven",
-    //     season: "beastgrave",
+    //     season: "Beastgrave",
     //     faction: 'Order'
     // },
     // {
     //     name: "Morgok's Krushas",
-    //     season: "beastgrave",
+    //     season: "Beastgrave",
     //     faction: 'Destruction'
     // },
     // {
     //     name: 'Wurmspat',
-    //     season: "beastgrave",
+    //     season: "Beastgrave",
     //     faction: 'Chaos'
     // }
 ]
