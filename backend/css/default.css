@@ -252,3 +252,19 @@ footer {
 .underline {
     border-bottom: 1px solid;
 }
+
+footer ul, footer li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li:not(:last-child)::after {
+    margin: 0 1rem;
+    content: '';
+    border-right: 1px solid;
+}
