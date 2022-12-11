@@ -1,6 +1,7 @@
 import { HrothgornsMantrappers } from "./cards/Beastgrave/HrothgornsMantrappers";
 import { RippasSnarlfangs } from "./cards/Beastgrave/RippasSnarlfangs";
 import { GnarlspiritPack } from "./cards/Gnarlwood/GnarlspiritPack";
+import { GrinkraksLooncourt } from "./cards/Gnarlwood/GrinkraksLooncourt";
 import { SonsOfVelmorn } from "./cards/Gnarlwood/SonsOfVelmorn";
 import { BlackpowdersBuckaneers } from "./cards/Harrowdeep/BlackpowdersBuckaneers";
 import { DaKunninKrew } from "./cards/Harrowdeep/DaKunninKrew";
@@ -12,6 +13,7 @@ import { Shadeborn } from "./cards/Nethermaze/Shadeborn";
 import { SkittershanksClawpack } from "./cards/Nethermaze/SkittershanksClawpack";
 import { DaringDelvers } from "./cards/Rivals/DaringDelvers";
 import { DeadlyDepths } from "./cards/Rivals/DeadlyDepths";
+import { FearsomeFortress } from "./cards/Rivals/FearsomeFortress";
 import { IllusoryMight } from "./cards/Rivals/IllusoryMight";
 import { ToothAndClaw } from "./cards/Rivals/ToothAndClaw";
 import { ChosenAxes } from "./cards/Shadespire/ChosenAxes";
@@ -48,9 +50,11 @@ export const Cards = [
 
     ...SonsOfVelmorn,
     ...GnarlspiritPack,
+    ...GrinkraksLooncourt,
 
     ...DeadlyDepths,
     ...IllusoryMight,
     ...DaringDelvers,
     ...ToothAndClaw,
+    ...FearsomeFortress,
 ]
