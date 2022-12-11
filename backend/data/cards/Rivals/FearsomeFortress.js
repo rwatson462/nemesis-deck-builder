@@ -31,7 +31,7 @@ export const FearsomeFortress = [
     { name: "Makeshift Bombardment", type: "Gambit", warband: "Fearsome Fortress" },
     { name: "Opportunistic Reprisal", type: "Gambit", warband: "Fearsome Fortress" },
     { name: "Ready for Anything", type: "Gambit", warband: "Fearsome Fortress" },
-    { name: "Redpeloy", type: "Gambit", warband: "Fearsome Fortress" },
+    { name: "Redeploy", type: "Gambit", warband: "Fearsome Fortress" },
     { name: "Take Your Positions!", type: "Gambit", warband: "Fearsome Fortress" },
     { name: "Tanglebriar", type: "Gambit", warband: "Fearsome Fortress" },
 ]
