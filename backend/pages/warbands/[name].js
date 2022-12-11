@@ -77,7 +77,7 @@ export async function getStaticProps({params}) {
 
     warband.cards = cards
 
-    const navData = await loadNavData()
+    const navData = loadNavData()
 
     return {
         props: {

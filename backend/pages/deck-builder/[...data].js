@@ -127,7 +127,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({params}) {
     const [warbandName, deckName] = params.data
 
-    const navData = await loadNavData()
+  const navData = loadNavData()
 
     const warbandData = Warbands.find(warband => createSlug(warband.name) === warbandName)
     const deckData = NemesisDecks.find(deck => createSlug(deck.name) === deckName)

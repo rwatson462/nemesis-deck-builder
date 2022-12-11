@@ -56,7 +56,7 @@ export default function IndexPage({title, warbands, decks}) {
 }
 
 export async function getStaticProps() {
-    const navData = await loadNavData()
+    const navData = loadNavData()
     
     return {
         props: {
