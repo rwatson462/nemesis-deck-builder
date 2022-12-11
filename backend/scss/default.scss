@@ -1,0 +1,100 @@
+
+@import 'reset';
+@import 'fonts';
+@import 'page-header';
+@import 'deck-builder';
+@import 'deck';
+@import 'card';
+@import 'warband-nav';
+@import 'warband-selector';
+@import 'footer';
+
+body {
+    background-color: #fff;
+    width: 1024px;
+    margin: 1rem auto;
+    padding: 0 2rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+
+a, a:hover, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.warband-table {
+    margin-bottom: 2rem;
+}
+
+tr:hover td {
+    background-color: #0001;
+}
+
+tr td:first-child {
+    width: 25%;
+    font-weight: bold;
+    text-transform: capitalize;;
+}
+
+td {
+    padding: 0.25rem 0.5rem;
+}
+
+.page-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.deck-container-vertical {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.deck-container-vertical > * {
+    width: 100%;
+}
+
+.deck-container-vertical .deck-group {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 1rem;
+}
+
+.two-column > * {
+    width: 50%;
+    flex-grow: 1;
+}
+
+.user-deck-container {
+    padding-bottom: 2rem;
+}
+
+.has-error {
+    color: red;
+}
+
+.underline {
+    border-bottom: 1px solid;
+}
+
+@import 'mobile';

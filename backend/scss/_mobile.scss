@@ -1,0 +1,54 @@
+
+// This is deliberately 1023px
+@media (max-width: 1023px) {
+    body {
+        padding: 0 1rem;
+        max-width: 960px;
+        width: auto;
+    }
+
+    .deck-container {
+        flex-wrap: wrap;
+
+        .deck-group {
+            width: 50%;
+            flex-grow: 0;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .deck-container {
+        flex-wrap: wrap;
+
+        .deck-group {
+            width: 100%;
+            flex-grow: 0;
+        }
+    }
+
+    .warband-nav {
+        flex-wrap: wrap;
+
+        & > section {
+            width: calc(50% - 1rem);
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .two-column {
+        flex-wrap: wrap;
+
+        & > * {
+            // becomes one-column ;)
+            width: 100%;
+        }
+    }
+
+    .warband-nav {
+        & > section {
+            width: 100%;
+        }
+    }
+}

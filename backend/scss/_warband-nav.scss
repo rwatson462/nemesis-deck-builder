@@ -1,0 +1,46 @@
+
+ul.list-group, ul.list-group li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.warband-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 0.5rem;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+
+    p {
+        margin-bottom: 0.5rem;
+    }
+
+    section {
+        padding: 0 0.5rem 0.5rem 0.5rem;
+        color: #444;
+        flex-grow: 1;
+    }
+}
+
+
+.warband-nav p {
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.warband-nav li a, .warband-nav li a:visited {
+    display: block;
+    color: #888;
+    padding: 0 0.25rem;
+}
+
+.warband-nav li span {
+    padding: 0 0.25rem;
+}
+
+.warband-nav li:hover a {
+    border-radius: 0.25rem;
+    background-color: #0001;
+}

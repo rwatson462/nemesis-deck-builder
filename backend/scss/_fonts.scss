@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$font-serif: 'Nunito', serif;
+$font-fixed: 'Andale Mono', 'Terminal', monospace;
+
+body {
+    font-family: $font-serif;
+}
+
+code, pre {
+    font-family: $font-fixed;
+}
+
+strong, b, h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}

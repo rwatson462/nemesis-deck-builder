@@ -1,0 +1,23 @@
+
+
+.warband-selector-container {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 0.25rem;
+}
+
+.warband-selector-container select {
+    width: 40%;
+}
+
+.warband-selector-container button {
+    width: 20%;
+    cursor: pointer;
+}
+
+.warband-selector-container select, .warband-selector-container button {
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+}

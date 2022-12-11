@@ -1,4 +1,4 @@
-import '../css/default.css'
+import '../scss/default.scss'
 
 /**
  * This custom app exists just to inject the css file above
