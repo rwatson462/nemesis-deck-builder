@@ -5,6 +5,7 @@ export default function WarbandNav({warbands = []}) {
     const {asPath: path} = useRouter()
 
     const factions = ['Chaos', 'Death', 'Destruction', 'Order']
+    const sortedWarbands = warbands.sort((a,b) => a.name.localeCompare(b.name))
 
     return <>
         <nav className="warband-nav">
@@ -12,9 +13,8 @@ export default function WarbandNav({warbands = []}) {
                 <section key={key}>
                     <p>{faction}</p>
                     <ul className="list-group">
-                        {warbands
+                        {sortedWarbands
                             .filter(warband => warband.faction === faction)
-                            .sort((a,b) => a.name.localeCompare(b.name))
                             .map((warband,key) => (
                                 <li key={key}>
                                     {warband.url === path

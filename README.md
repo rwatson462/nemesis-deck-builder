@@ -1,6 +1,13 @@
 # nemesis-deck-builder
 A deck builder for Warhammer Underworlds focussing on the Nemesis play format
 
+## pages
+The deck builder only has a few pages:
+- `/` the main page
+- `/news` the latest news page
+- `/decks/{deck name}` a view-only page of any deck
+- `/deck-builder/{warband name}/{nemesis deck name}` the deck builder
+
 
 ## todo
 - [x] Update styles in the Footer so the site links are list items with a border between them  

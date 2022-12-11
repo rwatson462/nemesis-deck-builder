@@ -6,13 +6,13 @@ export function loadNavData() {
   const warbandData = Warbands.map(warband => ({
     name: warband.name,
     faction: warband.faction,
-    url: `/warbands/${createSlug(warband.name)}`
+    url: `/decks/${createSlug(warband.name)}`
   }))
 
   const deckData = NemesisDecks.map(deck => ({
     name: deck.name,
     faction: deck.faction,
-    url: `/nemesis-decks/${createSlug(deck.name)}`
+    url: `/decks/${createSlug(deck.name)}`
   }))
 
   return {

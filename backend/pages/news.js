@@ -1,18 +1,10 @@
-import Head from "next/head"
-import Footer from "../components/Footer"
-import NemesisDeckNav from "../components/NemesisDeckNav"
-import WarbandNav from "../components/WarbandNav"
 import ExternalLink from "../components/ExternalLink"
 import { loadNavData } from "../functions/loadNavData"
+import HtmlHead from "../components/HtmlHead"
 
-export default function NewsPage({title, warbands = [], decks = []}) {
-    return (
-        <>
-            <Head>
-                <title>{title}</title>
-            </Head>
-
-            <h1 className="page-title">Nemesis Deck Builder: Latest news</h1>
+export default function NewsPage() {
+  return <>
+    <HtmlHead title="News" />
             <p>
                 Check this page to see what's new with the Nemesis Deck builder.
                 We're still an early alpha product so this page will be regularly updated with news on what's changing as development progresses.
@@ -104,20 +96,16 @@ export default function NewsPage({title, warbands = [], decks = []}) {
                     </p>
                 </section>
             </article>
-
-            <WarbandNav warbands={warbands} />
-            <NemesisDeckNav decks={decks} />
-            <Footer />
         </>
-    )
 }
 
 export async function getStaticProps() {
-    const navData = await loadNavData()
+  const navData = loadNavData()
     
     return {
         props: {
-            title: 'Nemesis Deck Builder: Latest news',
+      title: 'Nemesis Deck Builder',
+      subtitle: 'Latest news',
             ...navData
         }
     }
