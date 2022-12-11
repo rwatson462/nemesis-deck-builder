@@ -30,7 +30,7 @@ export const DeadlyDepths = [
     { name: "Gallows Humour", type: "Upgrade", warband: "Deadly Depths" },
     { name: "Lurking Horror", type: "Upgrade", warband: "Deadly Depths" },
     { name: "Marked by the Dark", type: "Upgrade", warband: "Deadly Depths" },
-    { name: "Mask of Shadows", type: "Upgrade", warband: "Deadly Depths" },
+    { name: "Mask of Shadows", type: "Upgrade", warband: "Deadly Depths", keywords: ["Illusion"] },
     { name: "Tantalising Map Fragment", type: "Upgrade", warband: "Deadly Depths" },
     { name: "The Life Line", type: "Upgrade", warband: "Deadly Depths" },
     { name: "Umbral Stigmata", type: "Upgrade", warband: "Deadly Depths" },
