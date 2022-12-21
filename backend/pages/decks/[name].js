@@ -17,7 +17,7 @@ export default function WarbandPage({ title, deckType = 'warband', deck = {} }) 
           This Warband was released before Rivals existed so 
           it doesn't have a full Rivals deck.  They can still be
           used as part of Nemesis, Championship, or Relic format
-          though by adding in other cards.
+          by adding in other cards.
         </p>
       }
       
