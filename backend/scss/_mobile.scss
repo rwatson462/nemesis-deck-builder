@@ -18,12 +18,18 @@
 }
 
 @media (max-width: 960px) {
+    body {
+        padding: 0.25rem;
+    }
+
     .deck-container {
         flex-wrap: wrap;
+        padding: 0;
 
         .deck-group {
             width: 100%;
             flex-grow: 0;
+            padding: 0;
         }
     }
 
@@ -32,6 +38,10 @@
 
         & > section {
             width: calc(50% - 1rem);
+        }
+
+        &.single-column {
+            max-width: unset;
         }
     }
 }
@@ -50,5 +60,9 @@
         & > section {
             width: 100%;
         }
+    }
+
+    .deck-group {
+        padding: 0;
     }
 }
