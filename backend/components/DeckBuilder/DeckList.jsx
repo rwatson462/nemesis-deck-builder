@@ -1,11 +1,12 @@
+import { CardTypes } from '../../data/CardTypes'
 import CardList from './CardList'
 
-export default function DeckList({ cardTypes, cards, vertical }) {
+export default function DeckList({ cards, vertical = false }) {
   const sortedCards = cards.sort((a,b) => a.name.localeCompare(b.name))
 
   return (
     <div className={`deck-container deck-container-${vertical ? 'vertical' : 'horizontal'}`}>
-      {cardTypes.map((cardType,key) => (
+      {CardTypes.map((cardType,key) => (
         <CardList
           title={cardType}
           cards={sortedCards.filter(card => card.type === cardType)}

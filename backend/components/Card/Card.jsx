@@ -11,7 +11,7 @@ export default function Card({ card, showToggleCardButton }) {
     <div className='card'>
       <CardHeader toggleImage={() => setShowImage(v => !v)}>
         <CardTitle card={card} />
-        { showToggleCardButton && <AddToDeckIcon /> }
+        { showToggleCardButton && <AddToDeckIcon card={card} /> }
       </CardHeader>
       <CardImage season={card.season} cardName={card.name} showImage={showImage} />
     </div>

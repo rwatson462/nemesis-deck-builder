@@ -1,6 +1,13 @@
+import { useContext } from 'react'
+import DeckContext from '../../Contexts/DeckContext'
+import validateNemesisDeck from '../../functions/validateNemesisDeck'
 import RulesList from './Rules/RuleList'
 
-export default function DeckRules({ errors }) {
+export default function DeckRules() {
+  const { userDeck } = useContext(DeckContext)
+
+  const errors = validateNemesisDeck(userDeck)
+  
   const rules = [
     {
       text: 'Must include at least 12 Objectives',

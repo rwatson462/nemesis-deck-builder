@@ -4,60 +4,40 @@ import { CardTypes } from '../../data/CardTypes'
 import { loadNavData } from '../../functions/loadNavData'
 import { NemesisDecks } from '../../data/NemesisDecks'
 import { Warbands } from '../../data/Warbands'
-// import ClickableCardList from '../../components/ClickableCardList'
 import createSlug from '../../functions/createSlug'
 import DeckBuilderInstructions from '../../components/DeckBuilder/DeckBuilderInstructions'
 import DeckRules from '../../components/DeckBuilder/DeckRules'
 import HtmlHead from '../../components/HtmlHead'
 import TwoColumnLayout from '../../components/Layouts/TwoColumnLayout'
 import UserDeckContainer from '../../components/DeckBuilder/UserDeckContainer'
-import validateNemesisDeck from '../../functions/validateNemesisDeck'
-// import VerticalDeckContainer from '../../components/VerticalDeckContainer'
-import DeckList from '../../components/DeckList'
+import DeckList from '../../components/DeckBuilder/DeckList'
+import DeckProvider from '../../Providers/DeckProvider'
 
 export default function Page({ warband, deck }) {
-  const [ userDeck, setUserDeck ] = useState([])
-
-  const toggleCardInUserDeck = (card) => {
-    if (userDeck.filter(userCard => userCard.name === card.name).length > 0) {
-      setUserDeck(userDeck.filter(userCard => userCard.name !== card.name))
-    } else {
-      setUserDeck([ ...userDeck, card ])
-    }
-  }
-
-  // eslint-disable-next-line
-  const isInUserDeck = (card) => (
-    userDeck.filter(userCard => userCard.name === card.name).length > 0
-  )
-
-  const errors = validateNemesisDeck(userDeck)
-
   return <>
     <HtmlHead title='Nemesis Deck Builder' />
 
-    <DeckRules errors={errors} />
+    <DeckProvider>
+      <DeckRules />
 
-    <UserDeckContainer
-      userDeck={userDeck}
-      toggleCardInUserDeck={toggleCardInUserDeck}
-    />
+      <UserDeckContainer />
 
-    <DeckBuilderInstructions />
+      <DeckBuilderInstructions />
 
-    <TwoColumnLayout
-      columns={[
-        <>
-          <h4 className='deck-title'>{warband.name}</h4>
-          <DeckList cardTypes={CardTypes} cards={warband.cards} type='vertical' />
-        </>,
+      <TwoColumnLayout
+        columns={[
+          <>
+            <h4 className='deck-title'>{warband.name}</h4>
+            <DeckList cardTypes={CardTypes} cards={warband.cards} vertical />
+          </>,
 
-        <>
-          <h4 className='deck-title'>{deck.name}</h4>
-          <DeckList cardTypes={CardTypes} cards={deck.cards} type='vertical' />
-        </>
-      ]}
-    />
+          <>
+            <h4 className='deck-title'>{deck.name}</h4>
+            <DeckList cardTypes={CardTypes} cards={deck.cards} vertical />
+          </>
+        ]}
+      />
+    </DeckProvider>
   </>
 }
 
