@@ -1,6 +1,6 @@
-import RulesList from "./Rules/RuleList"
+import RulesList from './Rules/RuleList'
 
-export default function DeckRules({errors}) {
+export default function DeckRules({ errors }) {
   const rules = [
     {
       text: 'Must include at least 12 Objectives',
@@ -21,7 +21,7 @@ export default function DeckRules({errors}) {
   ]
 
   return (
-    <div className="deck-rules-container">
+    <div className='deck-rules-container'>
       <p>Rules for building a Nemesis deck:</p>
       <RulesList rules={rules} />
     </div>

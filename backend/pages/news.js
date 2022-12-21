@@ -1,18 +1,18 @@
-import ExternalLink from "../components/ExternalLink"
-import { loadNavData } from "../functions/loadNavData"
-import HtmlHead from "../components/HtmlHead"
+import ExternalLink from '../components/ExternalLink'
+import { loadNavData } from '../functions/loadNavData'
+import HtmlHead from '../components/HtmlHead'
 
 export default function NewsPage() {
   return <>
-    <HtmlHead title="News" />
+    <HtmlHead title='News' />
     <p>
       Check this page to see what's new with the Nemesis Deck builder.
       We're still an early alpha product so this page will be regularly updated with news on what's changing as development progresses.
     </p>
 
     <article>
-      <section className="page-section news-section">
-        <h4 className="underline">12th December 2022</h4>
+      <section className='page-section news-section'>
+        <h4 className='underline'>12th December 2022</h4>
         <p>
           Updated lots of styles around the site!  It scales better
           for mobile, has better controls for adding/removing cards
@@ -20,8 +20,8 @@ export default function NewsPage() {
           added.
         </p>
       </section>
-      <section className="page-section">
-        <h4 className="underline">11th December 2022</h4>
+      <section className='page-section'>
+        <h4 className='underline'>11th December 2022</h4>
         <p>
           In honour of a new warband and Nemesis deck being released soon,
           I've added in the new cards:</p>
@@ -34,8 +34,8 @@ export default function NewsPage() {
         </p>
       </section>
 
-      <section className="page-section">
-        <h4 className="underline">4th  November 2022</h4>
+      <section className='page-section'>
+        <h4 className='underline'>4th  November 2022</h4>
         <p>
           Finally have all the cards for Harrowdeep and later warbands added in:</p>
         <ul>
@@ -51,10 +51,10 @@ export default function NewsPage() {
         </p>
       </section>
 
-      <section className="page-section">
-        <h4 className="underline">3rd November 2022</h4>
+      <section className='page-section'>
+        <h4 className='underline'>3rd November 2022</h4>
         <p>
-          Big news!  All card images are added!  Shamelessly stolen from <ExternalLink href="https://underworldsdb.com">UnderworldsDb</ExternalLink>.
+          Big news!  All card images are added!  Shamelessly stolen from <ExternalLink href='https://underworldsdb.com'>UnderworldsDb</ExternalLink>.
           The first time any card is viewed, it's fetched then stored on this site.  The images are then optimised so future requests for them are lightning fast.
         </p>
         <p>Added deck lists for:</p>
@@ -66,8 +66,8 @@ export default function NewsPage() {
         <p>As a tidy-up exercise, I've hidden all warbands for which I haven't added their cards to avoid the disappointment of trying to use them when building a deck.</p>
       </section>
 
-      <section className="page-section">
-        <h4 className="underline">1st November 2022</h4>
+      <section className='page-section'>
+        <h4 className='underline'>1st November 2022</h4>
         <p>Added deck lists for:</p>
         <ul>
           <li>Gnarlspirit Pack</li>
@@ -76,8 +76,8 @@ export default function NewsPage() {
         </ul>
       </section>
 
-      <section className="page-section">
-        <h4 className="underline">31st October 2022</h4>
+      <section className='page-section'>
+        <h4 className='underline'>31st October 2022</h4>
         <p>Site launched today!  Including deck lists for these warbands:</p>
         <ul>
           <li>Steelheart's Champions</li>

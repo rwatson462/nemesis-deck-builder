@@ -1,41 +1,41 @@
-import { useRouter } from "next/router";
-import { useRef, useState } from "react";
-import createSlug from "../functions/createSlug";
+import { useRouter } from 'next/router'
+import { useRef } from 'react'
+import createSlug from '../functions/createSlug'
 
-export default function WarbandSelector({warbands, decks}) {
-    const router = useRouter()
+export default function WarbandSelector({ warbands, decks }) {
+  const router = useRouter()
 
-    const warbandSelect = useRef()
-    const deckSelect = useRef()
+  const warbandSelect = useRef()
+  const deckSelect = useRef()
 
-    const start = () => {
-        const warband = warbandSelect.current.value
-        const deck = deckSelect.current.value
+  const start = () => {
+    const warband = warbandSelect.current.value
+    const deck = deckSelect.current.value
 
-        if (warband === '' || deck === '') {
-            return
-        }
-
-        router.push(`/deck-builder/${createSlug(warband)}/${createSlug(deck)}/`)
+    if (warband === '' || deck === '') {
+      return
     }
 
-    return (
-        <section className="warband-selector-container">
-            <select ref={warbandSelect} defaultValue="">
-                <option value="" disabled>Select a Warband</option>
-                { warbands.sort((a,b) => a.name.localeCompare(b.name)).map((warband,key) => (
-                    <option key={key}>{warband.name}</option>
-                ))}
-            </select>
+    router.push(`/deck-builder/${createSlug(warband)}/${createSlug(deck)}/`)
+  }
 
-            <select ref={deckSelect} defaultValue="">
-                <option value="" disabled>Select a Deck</option>
-                { decks.sort((a,b) => a.name.localeCompare(b.name)).map((deck,key) => (
-                    <option key={key}>{deck.name}</option>
-                ))}
-            </select>
+  return (
+    <section className='warband-selector-container'>
+      <select ref={warbandSelect} defaultValue=''>
+        <option value='' disabled>Select a Warband</option>
+        { warbands.sort((a,b) => a.name.localeCompare(b.name)).map((warband,key) => (
+          <option key={key}>{warband.name}</option>
+        ))}
+      </select>
 
-            <button onClick={e => start()}>Go...</button>
-        </section>
-    )
+      <select ref={deckSelect} defaultValue=''>
+        <option value='' disabled>Select a Deck</option>
+        { decks.sort((a,b) => a.name.localeCompare(b.name)).map((deck,key) => (
+          <option key={key}>{deck.name}</option>
+        ))}
+      </select>
+
+      <button onClick={start}>Go...</button>
+    </section>
+  )
 }

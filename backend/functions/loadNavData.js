@@ -1,6 +1,6 @@
-import { Warbands } from "../data/Warbands"
-import { NemesisDecks } from "../data/NemesisDecks"
-import createSlug from "./createSlug"
+import { Warbands } from '../data/Warbands'
+import { NemesisDecks } from '../data/NemesisDecks'
+import createSlug from './createSlug'
 
 export function loadNavData() {
   const warbandData = Warbands.map(warband => ({

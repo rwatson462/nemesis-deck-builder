@@ -1,11 +1,11 @@
-import DeckList from "../../components/DeckList"
-import createSlug from "../../functions/createSlug"
-import { loadNavData } from "../../functions/loadNavData"
-import { Warbands } from "../../data/Warbands"
-import { Cards } from "../../data/cards"
-import HtmlHead from "../../components/HtmlHead"
-import { CardTypes } from "../../data/CardTypes"
-import { NemesisDecks } from "../../data/NemesisDecks"
+import DeckList from '../../components/DeckList'
+import createSlug from '../../functions/createSlug'
+import { loadNavData } from '../../functions/loadNavData'
+import { Warbands } from '../../data/Warbands'
+import { Cards } from '../../data/cards'
+import HtmlHead from '../../components/HtmlHead'
+import { CardTypes } from '../../data/CardTypes'
+import { NemesisDecks } from '../../data/NemesisDecks'
 
 export default function WarbandPage({ title, deckType = 'warband', deck = {} }) {
   return (
@@ -33,10 +33,10 @@ export default function WarbandPage({ title, deckType = 'warband', deck = {} }) 
 export async function getStaticPaths() {
   const paths = [
     ...Warbands.map(warband => (
-      {params: {name: createSlug(warband.name)}}
+      { params: { name: createSlug(warband.name) } }
     )),
     ...NemesisDecks.map(deck => (
-      {params: {name: createSlug(deck.name)}}
+      { params: { name: createSlug(deck.name) } }
     ))
   ]
 
@@ -50,7 +50,7 @@ export async function getStaticPaths() {
  * This function is run in advance to load props to pass to the page component.
  * It is run for each page discovered from getStaticPaths to cache all data
  */
-export async function getStaticProps({params}) {
+export async function getStaticProps({ params }) {
   const deck = {
     ...(
       Warbands.find(warband => createSlug(warband.name) === params.name)
@@ -67,7 +67,7 @@ export async function getStaticProps({params}) {
 
   const title = deckType === 'warband'
     ? `Warband: ${deck.name}`
-  : `Nemesis Deck: ${deck.name}`
+    : `Nemesis Deck: ${deck.name}`
 
   const subtitle = deckType === 'warband'
     ? deck.faction

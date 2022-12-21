@@ -1,6 +1,6 @@
-import CardList from "./CardList";
+import CardList from './CardList'
 
-export default function DeckList({cardTypes, cards, type='horizontal' }) {
+export default function DeckList({ cardTypes, cards, type='horizontal' }) {
   const sortedCards = cards.sort((a,b) => a.name.localeCompare(b.name))
   return (
     <div className={`deck-container deck-container-${type}`}>

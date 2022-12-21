@@ -1,4 +1,4 @@
-import RuleItem from "./RuleItem";
+import RuleItem from './RuleItem'
 
 export default function RulesList({ rules = [] }) {
   return (

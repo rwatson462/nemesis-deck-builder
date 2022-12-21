@@ -1,15 +1,15 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-export default function NemesisDeckNav({decks = []}) {
-  const {asPath: path} = useRouter()
+export default function NemesisDeckNav({ decks = [] }) {
+  const { asPath: path } = useRouter()
   const sortedDecks = decks.sort((a,b) => a.name.localeCompare(b.name))
 
   return <>
-    <nav className="warband-nav single-column">
+    <nav className='warband-nav single-column'>
       <section>
         <p>Universal Rivals decks</p>
-        <ul className="list-group">
+        <ul className='list-group'>
           {sortedDecks.map((deck,key) => (
             <li key={key}>
               {deck.url === path

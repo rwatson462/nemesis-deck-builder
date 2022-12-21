@@ -1,8 +1,8 @@
 
-export default function CardHeader({toggleImage, children}) {
-    return (
-        <div className="card-header" onClick={e => toggleImage()}>
-            {children}
-        </div>
-    )
+export default function CardHeader({ toggleImage, children }) {
+  return (
+    <div className='card-header' onClick={() => toggleImage()}>
+      {children}
+    </div>
+  )
 }
