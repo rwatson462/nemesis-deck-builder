@@ -1,11 +1,11 @@
 
 .deck-rules-container {
     border-radius: 1rem;
-    background-color: #eee;
+    background-color: $border-colour;
     padding: 1rem;
 
     .has-error {
-        color: red;
+        color: $error-colour;
         font-weight: bold;
     }
 }

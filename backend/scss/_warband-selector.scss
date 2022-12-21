@@ -18,7 +18,7 @@
 
 .warband-selector-container select, .warband-selector-container button {
     outline: none;
-    border: 1px solid #aaa;
+    border: 1px solid $warband-nav-link;
     border-radius: 0.5rem;
     padding: 0.25rem 0.5rem;
 }

@@ -25,14 +25,13 @@ ul.list-group, ul.list-group li {
 
     section {
         padding: 0 0.5rem 0.5rem 0.5rem;
-        color: #444;
         flex-grow: 1;
     }
 
     li {
         a, a:visited {
             display: block;
-            color: #888;
+            color: $warband-nav-link;
             padding: 0 0.25rem;
         }
 
@@ -42,7 +41,7 @@ ul.list-group, ul.list-group li {
 
         &:hover a {
             border-radius: 0.25rem;
-            background-color: #0001;
+            background-color: $table-row-hover-colour;
         }
     }
 }

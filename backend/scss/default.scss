@@ -1,5 +1,6 @@
 
 @import 'reset';
+@import 'colours';
 @import 'fonts';
 @import 'page-header';
 @import 'deck-builder';
@@ -10,7 +11,7 @@
 @import 'footer';
 
 body {
-    background-color: #fff;
+    background-color: $page-background-colour;
     width: 1024px;
     margin: 1rem auto;
     padding: 0 2rem;
@@ -23,12 +24,12 @@ h1,h2,h3,h4,h5,h6 {
 
 
 a, a:hover, a:visited {
-    color: blue;
+    color: $link-colour;
     text-decoration: none;
 }
 
 a:hover {
-    color: blue !important;
+    color: $link-hover-colour !important;
 }
 
 table {
@@ -41,13 +42,13 @@ table.warband-table {
 }
 
 tr:hover td {
-    background-color: #0001;
+    background-color: $table-row-hover-colour;
 }
 
 tr td:first-child {
     width: 25%;
     font-weight: bold;
-    text-transform: capitalize;;
+    text-transform: capitalize;
 }
 
 td {
@@ -90,7 +91,7 @@ td {
 }
 
 .has-error {
-    color: red;
+    color: $error-colour;
 }
 
 .underline {
