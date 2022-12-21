@@ -1,4 +1,4 @@
 
 export default function createSlug(warbandName) {
-    return warbandName.toLowerCase().replaceAll(' ','+')
+  return warbandName.toLowerCase().replaceAll(' ','+')
 }
