@@ -1,2 +1,4 @@
+.idea/
+.vscode/
 backend/.next
 backend/node_modules
