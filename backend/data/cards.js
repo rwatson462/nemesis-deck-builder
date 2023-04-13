@@ -24,6 +24,8 @@ import { MagoresFiends } from "./cards/Shadespire/MagoresFiends";
 import { SepulchralGuard } from "./cards/Shadespire/SepulchralGuard";
 import { SpiteclawsSwarm } from "./cards/Shadespire/SpiteclawsSwarm";
 import { SteelheartsChampions } from "./cards/Shadespire/SteelheartsChampions";
+import { BeastboundAssault } from "./cards/Rivals/BeastboundAssault";
+import {GrysellesArenai} from "./cards/Gnarlwood/GrysellesArenai";
 
 export const Cards = [
     ...Farstriders,
@@ -51,10 +53,12 @@ export const Cards = [
     ...SonsOfVelmorn,
     ...GnarlspiritPack,
     ...GrinkraksLooncourt,
+    ...GrysellesArenai,
 
     ...DeadlyDepths,
     ...IllusoryMight,
     ...DaringDelvers,
     ...ToothAndClaw,
     ...FearsomeFortress,
+    ...BeastboundAssault,
 ]

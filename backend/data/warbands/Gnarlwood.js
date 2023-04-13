@@ -14,5 +14,10 @@ export const Gnarlwood = [
         name: "Grinkrak's Looncourt",
         season: 'gnarlwood',
         faction: 'Destruction'
+    },
+    {
+        name: "Gryselle's Arenai",
+        season: 'Gnarlwood',
+        faction: 'Order'
     }
 ]
