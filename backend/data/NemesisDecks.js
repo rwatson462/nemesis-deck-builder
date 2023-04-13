@@ -5,4 +5,5 @@ export const NemesisDecks = [
     { name: "Daring Delvers", faction: "Universal", season: "gnarlwood" },
     { name: "Tooth and Claw", faction: "Universal", season: "gnarlwood" },
     { name: "Fearsome Fortress", faction: "Universal", season: "gnarlwood" },
+    { name: "Beastbound Assault", faction: "Universal", season: "gnarlwood" },
 ]
