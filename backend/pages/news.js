@@ -20,6 +20,21 @@ export default function NewsPage({title, warbands = [], decks = []}) {
 
             <article>
                 <section className="page-section">
+                    <h4 className="underline">13th April 2023</h4>
+                    <p>
+                        It's been a while, but I've finally managed to get back to this project again.
+                        So here are the latest cards for Underworlds:
+                    </p>
+                    <ul>
+                        <li>Gryselle's Arenai</li>
+                        <li>Beastbound Assault</li>
+                    </ul>
+                    <p>
+                        Still in the works are some better designs, sorry folks.
+                    </p>
+                </section>
+
+                <section className="page-section">
                     <h4 className="underline">11th December 2022</h4>
                     <p>
                         In honour of a new warband and Nemesis deck being released soon,
