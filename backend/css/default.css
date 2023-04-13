@@ -111,6 +111,11 @@ ul.list-group, ul.list-group li {
     line-height: 1.5;
 }
 
+.deck-group ul.list-group li {
+    display: flex;
+    justify-content: space-between;
+}
+
 .deck-container {
     display: flex;
     justify-content: space-evenly;
